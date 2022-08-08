@@ -1,0 +1,18 @@
+@media only screen and (min-width:0px) and (max-width: 567px){
+    #slider .carousel-item h4{
+        padding-top: 80px;
+    }
+
+    #slider .carousel-item h1{
+        font-size: 40px;
+    }
+
+    .carousel-item-inner{
+        width: 100%;
+        height: 450px;
+    }
+
+    .about-inner{
+        margin-top: 0px;
+    }
+}

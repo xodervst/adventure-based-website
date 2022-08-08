@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Based Theme Website</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e36c2f2519.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&family=Spectral:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+     <!-- Modal -->
+  <div class="modal fade" id="booknow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Book an Adventure Now!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="text" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Request Call Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <header>
+        <div class="container-fluid menu fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <a href="" class="navbar-brand">
+                                <img src="img/header-logo.svg" width="150px"/>
+                            </a>
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="#home" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#about" class="nav-link">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#service" class="nav-link">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#contact" class="nav-link">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#"  class="nav-link" data-toggle="modal" data-target="#booknow">Book Now</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider" id="home">
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                  </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background: url('img/climbing-2609319.jpg') center; background-size:cover  ">
+                    
+                        <div class="carousel-item-inner">
+                            <h4>Discover the Colourful World</h4>
+                            <h1>New Adventure</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore ex ea vero <br/>labore a perferendis dolor illum veniam, quia maiores magnam dolorum beatae quae minima itaque minus? Possimus, quia.</p>
+                            <a href="#" class="text-uppercase header-btn btn btn-outline-info">Discover Now</a>
+                        </div>
+                </div>
+                  <div class="carousel-item" style="background: url('img/girl-1561989.jpg') center; background-size:cover  ">
+                    
+                    <div class="carousel-item-inner">
+                        <h4>Discover the Colourful World</h4>
+                        <h1>New Experience</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore ex ea vero <br/>labore a perferendis dolor illum veniam, quia maiores magnam dolorum beatae quae minima itaque minus? Possimus, quia.</p>
+                        <a href="#" class="text-uppercase header-btn btn btn-outline-info">Discover Now</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="background: url('img/aurora-1185464.jpg') center; background-size:cover  ">
+                    <div class="carousel-item-inner">
+                        <h4>Discover the Colourful World</h4>
+                        <h1>New World</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore ex ea vero <br/>labore a perferendis dolor illum veniam, quia maiores magnam dolorum beatae quae minima itaque minus? Possimus, quia.</p>
+                        <a href="#" class="text-uppercase header-btn btn btn-outline-info">Discover Now</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row text-center text-capitalize">
+                <div class="col-12">
+                    <h1>Why Choose Us Your Fitness Partner</h1>
+                    <p>Who are in extremely love with eco-friendly system.</p>
+                
+                </div>
+            </div>
+            <div class="row about-inner">
+                <div class="col-lg-6">
+
+                    <img src="img/beach.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    
+                    <div class="pl-5">
+                        <h3 class="text-capitalize">We realise that <br>there are reduced <br>wastege stand out.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat, provident placeat veniam odit, quisquam quod exercitationem earum quo quis nisi, ut ex sint distinctio sequi rerum obcaecati saepe Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore accusamus modi voluptate nam recusandae, illum enim reiciendis earum reprehenderit, molestiae et
+                            iusto. Dicta nam delectus ratione ipsum a? Delectus dolores, eius necessitatibus laudantium eos nesciunt atque quibusdam ad nemo.
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus molestiae voluptas iste rerum delectus quae animi quaerat aut quo quidem, sunt officia hic placeat accusamus sequi, cupiditate aspernatur in minima!</p>  
+                    </div>
+                
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="service">
+        <div class="container">
+            <div class="row text-center text-capitalize">
+                <div class="col-12">
+                    <h1>Some features that made us Unique</h1>
+                    <p>Who are in extremely love with eco-friendly system.</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container fe-section">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="fe-section-item p-3">
+                    <h5>Expert technicians</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptas eligendi minima alias dolore quia nemo. Vero necessitatibus minus et quis.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="fe-section-item p-3">
+                    <h5>Expert technicians</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptas eligendi minima alias dolore quia nemo. Vero necessitatibus minus et quis.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="fe-section-item p-3">
+                    <h5>Expert technicians</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptas eligendi minima alias dolore quia nemo. Vero necessitatibus minus et quis.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="fe-section-item p-3">
+                    <h5>Expert technicians</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptas eligendi minima alias dolore quia nemo. Vero necessitatibus minus et quis.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="fe-section-item p-3">
+                    <h5>Expert technicians</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptas eligendi minima alias dolore quia nemo. Vero necessitatibus minus et quis.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="fe-section-item p-3">
+                    <h5>Expert technicians</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptas eligendi minima alias dolore quia nemo. Vero necessitatibus minus et quis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-section" id="contact">
+        <div class="container">
+            <div class="row text-center text-capitalize">
+                <div class="col-12">
+                    <h1>If you need, Just drop us a line</h1>
+                    <p>Who are in extremely love with eco-friendly system.</p>
+                
+                </div>
+            </div>
+            <form>
+                <div class="row form-outer">
+                    <div class="col-lg-6 form-group">
+                        <input type="text" placeholder="Enter Your Name.." name="" class="form-control"/>
+                        <input type="text" placeholder="Enter Your Email.." name="" class="form-control"/>
+                        <input type="text" placeholder="Enter the Subject.." name="" class="form-control"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <textarea class="form-control" placeholder="Message"> </textarea>
+                        <button class="btn btn-primary">Send Message <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nesciunt distinctio ex quaerat consequuntur, eius consequatur id. Incidunt quae, excepturi iusto voluptatem magnam cumque eum, error, repudiandae sequi libero exercitationem.</p>
+                    <p>
+                        Copyright Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aspernatur ex.
+                    </p>
+                    <a href="https://google.com" target="_blank">Google</a>
+                </div>
+                <div class="col-lg-5">
+                    <h5>Newsletter</h5>
+                    <p>Stay Updated with our latest.</p>  
+                    <form class="d-flex">
+                        <input type="text" class="form-control" placeholder="Enter Email">
+                        <button class="btn btn-primary"><i class="fas fa-arrow-right"></i></button>
+                    </form>                  
+                </div>
+                <div class="col-lg-2">
+                    <h5>Follow Us</h5>
+                    <p>Let us be social.</p>
+                    <div class="s-links">
+                        <i class="fa-brands fa-2x fa-facebook"></i>
+                        <i class="fa-brands fa-2x fa-instagram"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+   
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script>
+
+
+</script>
+</html>
